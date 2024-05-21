@@ -32,3 +32,17 @@ body {
     display: grid;
     place-content: center;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info-con {
+    display: flex;
+}
+
+.stats-con {
+    display: flex;
+
+}
