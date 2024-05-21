@@ -23,3 +23,12 @@
     font-variation-settings:
         "YOPQ" 300;
 }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    place-content: center;
+}
