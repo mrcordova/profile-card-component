@@ -36,8 +36,16 @@ body {
 .card {
     display: flex;
     flex-direction: column;
+    background-image: url('/images/bg-pattern-card.svg');
+    justify-content: center;
+    align-items: center;
+    inline-size: 20.4rem;
+    block-size: 23.3rem;
+    border-radius: 15px;
 }
+.img {
 
+}
 .profile-info-con {
     display: flex;
 }
