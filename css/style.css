@@ -92,7 +92,9 @@ body {
     display: flex;
     /* padding-inline-end: 0.5rem; */
     flex: 1;
-    margin-block-start: 2.7rem;
+    border-top: 1px solid var(--dark-grayish-blue);
+    margin-block-start: 1.5rem;
+    padding-block-start: 1.2rem;
     width: 100%;
     justify-content: space-evenly;
     text-align: center;
