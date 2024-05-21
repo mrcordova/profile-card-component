@@ -41,20 +41,38 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    background: url('/images/bg-pattern-card.svg') no-repeat;
+    background: white url('/images/bg-pattern-card.svg') no-repeat;
     justify-content: center;
     align-items: center;
     inline-size: 20.4rem;
     block-size: 23.3rem;
     border-radius: 15px;
+
 }
 .img {
-    margin-block-start: 2rem;
+    margin-block-start: 0.7rem;
+    margin-block-end: 1.8rem;
     border: 5px solid white;
     border-radius: 90px;
 }
 .profile-info-con {
     display: flex;
+ 
+    align-items: baseline;
+    
+   
+}
+.profile-info-con>h1 {
+    font-size: 1.15rem;
+    margin-inline-end: 0.5rem;
+    padding-inline-start: 0.9rem;
+    padding-inline-end: 0rem;
+    
+}
+.profile-info-con>p {
+    font-size: 1.2rem;
+    padding-inline-start: 0.23rem;
+    padding-inline-end: 0.8rem;
 }
 
 .stats-con {
