@@ -103,9 +103,9 @@ body {
 }
 
 .stats-con>div:nth-child(2) {
-    padding-inline-end: 0.8rem;
+    padding-inline-end: 0.7rem;
 }
 .stats-con>div:last-child {
-    padding-inline-end: 0.8rem;
+    padding-inline-end: 0.9rem;
 }
 
