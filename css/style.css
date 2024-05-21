@@ -31,6 +31,11 @@ html, body {
 body {
     display: grid;
     place-content: center;
+    /* background-color: var(--dark-cyan); */
+    background: url('../images/bg-pattern-top.svg') top -390px left -440px  no-repeat, url('../images/bg-pattern-bottom.svg') bottom -340px right -445px no-repeat, var(--dark-cyan);
+    background-size: 650px;
+    background-size: 655px;
+    
 }
 
 .card {
