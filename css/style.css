@@ -35,7 +35,7 @@ body {
     /* background: url('../images/bg-pattern-top.svg') top -24.375rem left -27.5rem/40.625rem  no-repeat, url('../images/bg-pattern-bottom.svg') bottom -21.25rem right -27.8125rem/40.9375rem  no-repeat, var(--dark-cyan); */
     /* background: url('../images/bg-pattern-top.svg') top -18.75rem left 1.875rem/40.9375rem  no-repeat, url('../images/bg-pattern-bottom.svg') bottom -45rem right -17.1875rem/65.9375rem no-repeat, var(--dark-cyan); */
     background: url('../images/bg-pattern-top.svg') top clamp(-24.375rem, -26.3556rem + 8.4507vw, -18.75rem) left clamp(-27.5rem, -36.5229rem + 38.4977vw, 1.875rem)/clamp(40.625rem, 40.5150rem + 0.4695vw, 40.9375rem) no-repeat, 
-                url('../images/bg-pattern-bottom.svg') bottom clamp(-21.25rem, -53.3627rem + 35.6808vw,  -45rem) right clamp(-27.8125rem, -31.5537rem + 15.9624vw, -17.1875rem)/clamp(40.9375rem, 32.1347rem + 37.5587vw, 65.9375rem) no-repeat, var(--dark-cyan);
+    url('../images/bg-pattern-bottom.svg') bottom clamp(-21.25rem, -53.3627rem + 35.6808vw,  -45rem) right clamp(-27.8125rem, -31.5537rem + 15.9624vw, -17.1875rem)/clamp(40.9375rem, 32.1347rem + 37.5587vw, 65.9375rem) no-repeat, var(--dark-cyan);
     /* background-size: 100px; */
     /* background-size: 955px; */
     
@@ -106,7 +106,7 @@ body {
 
 }
 .stats-con>div>p:nth-child(2) {
-    color: var(--dark-grayish-blue);
+    color: var(--dark-gray);
 }
 .stats-con>div:first-child {
     padding-inline-start: 0.5rem;
