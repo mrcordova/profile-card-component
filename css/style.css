@@ -44,8 +44,10 @@ body {
     background: white url('/images/bg-pattern-card.svg') no-repeat;
     justify-content: center;
     align-items: center;
-    inline-size: 20.4rem;
-    block-size: 23.3rem;
+    inline-size: clamp(20.4rem, 19.8366rem + 2.4038vw, 22rem);
+    block-size: clamp(23.3rem, 23.2296rem + 0.3005vw, 23.5rem);
+    /* inline-size: 20.4rem;
+    block-size: 23.3rem; */
     border-radius: 15px;
    
 
