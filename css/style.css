@@ -44,7 +44,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    background: white url('/images/bg-pattern-card.svg') no-repeat;
+    background: white url('../images/bg-pattern-card.svg') no-repeat;
     justify-content: center;
     align-items: center;
     inline-size: clamp(20.4rem, 19.9070rem + 2.1033vw, 21.8rem);
