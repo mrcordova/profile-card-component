@@ -31,7 +31,7 @@ html, body {
 body {
     display: grid;
     place-content: center;
-    /* background-color: var(--dark-cyan); */
+    
     /* background: url('../images/bg-pattern-top.svg') top -24.375rem left -27.5rem/40.625rem  no-repeat, url('../images/bg-pattern-bottom.svg') bottom -21.25rem right -27.8125rem/40.9375rem  no-repeat, var(--dark-cyan); */
     /* background: url('../images/bg-pattern-top.svg') top -18.75rem left 1.875rem/40.9375rem  no-repeat, url('../images/bg-pattern-bottom.svg') bottom -45rem right -17.1875rem/65.9375rem no-repeat, var(--dark-cyan); */
     background: url('../images/bg-pattern-top.svg') top clamp(-24.375rem, -26.3556rem + 8.4507vw, -18.75rem) left clamp(-27.5rem, -36.5229rem + 38.4977vw, 1.875rem)/clamp(40.625rem, 40.5150rem + 0.4695vw, 40.9375rem) no-repeat, 
@@ -48,8 +48,7 @@ body {
     align-items: center;
     inline-size: clamp(20.4rem, 19.9070rem + 2.1033vw, 21.8rem);
     block-size: clamp(23.3rem, 23.2296rem + 0.3005vw, 23.5rem);
-    /* inline-size: 20.4rem;
-    block-size: 23.3rem; */
+    
     border-radius: 15px;
    
 
